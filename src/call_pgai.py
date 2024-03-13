@@ -3,8 +3,9 @@ import os
 import requests
 from pathlib import Path
 from typing import Any
-from .voc import *
+from voc import *
 import pytest
+
 
 train_generated_new = {}
 train_generated_old = {}
