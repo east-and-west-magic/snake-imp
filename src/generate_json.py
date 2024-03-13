@@ -1,23 +1,50 @@
-import json
+from .util import dump
 from .voc import *
-import pytest
 
 
-train_generated = {}
+@dump
+def test_list_mode(train_generated: dict):
+    ###########################################
+    # list mode
+    ###########################################
+    for s in [
+        "show mode list",
+        "what modes do you support?",
+    ]:
+        xxx = {
+            s: {
+                "result": [
+                    x_list,
+                    x_mode,
+                    {},
+                ],
+                "desc": [
+                    "list mode",
+                ],
+            },
+        }
+        train_generated |= xxx
 
 
-def test_final():
-    file_name = "tmp.jsonl"
-    with open(file_name, "w") as f:
-        for key in train_generated:
-            myobj = {
-                "command": key,
-                "result": train_generated[key]["result"],
-                "desc": train_generated[key]["desc"],
-            }
-            json.dump(myobj, f, indent=None)
-            f.write("\n")
-
-
-if __name__ == "__main__":
-    test_final()
+@dump
+def test_list_mode2(train_generated: dict):
+    ###########################################
+    # list mode
+    ###########################################
+    for s in [
+        "mode list",
+        "list modes",
+    ]:
+        xxx = {
+            s: {
+                "result": [
+                    x_list,
+                    x_mode,
+                    {},
+                ],
+                "desc": [
+                    "list mode",
+                ],
+            },
+        }
+        train_generated |= xxx

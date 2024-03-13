@@ -1,0 +1,22 @@
+{
+    "show mode list": {
+        "result": [
+            "list",
+            "mode",
+            {}
+        ],
+        "desc": [
+            "list mode"
+        ]
+    },
+    "what modes do you support?": {
+        "result": [
+            "list",
+            "mode",
+            {}
+        ],
+        "desc": [
+            "list mode"
+        ]
+    }
+}

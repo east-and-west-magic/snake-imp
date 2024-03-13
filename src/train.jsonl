@@ -1,0 +1,4 @@
+{"command": "show mode list", "result": ["list", "mode", {}], "desc": ["list mode"]}
+{"command": "what modes do you support?", "result": ["list", "mode", {}], "desc": ["list mode"]}
+{"command": "mode list", "result": ["list", "mode", {}], "desc": ["list mode"]}
+{"command": "list modes", "result": ["list", "mode", {}], "desc": ["list mode"]}
