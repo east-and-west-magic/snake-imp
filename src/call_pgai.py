@@ -9,7 +9,7 @@ import pytest
 train_generated_new = {}
 train_generated_old = {}
 header = {'accept': 'application/json', 'Content-Type': 'application/json'}
-url_base = "https://steveagi-pgai.hf.space/games/watermelon/nlp"
+url_base = "https://steveagi-pgai.hf.space/games/snake/nlp"
 url_create = f"{url_base}/c"
 url_delete = f"{url_base}/d"
 

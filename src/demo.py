@@ -4,7 +4,7 @@ import json
 from .voc import *
 
 
-base_url = "https://steveagi-pgai.hf.space/games/watermelon/nlp"
+base_url = "https://steveagi-pgai.hf.space/games/snake/nlp"
 header = {'accept': 'application/json', 'Content-Type': 'application/json'}
 
 
