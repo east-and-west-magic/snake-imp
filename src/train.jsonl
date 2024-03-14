@@ -2,3 +2,9 @@
 {"command": "what modes do you support?", "result": ["list", "mode", {}], "desc": ["list mode"]}
 {"command": "mode list", "result": ["list", "mode", {}], "desc": ["list mode"]}
 {"command": "list modes", "result": ["list", "mode", {}], "desc": ["list mode"]}
+{"command": "start", "result": ["start", {}], "desc": ["play game"]}
+{"command": "play", "result": ["start", {}], "desc": ["play game"]}
+{"command": "run", "result": ["start", {}], "desc": ["play game"]}
+{"command": "start game", "result": ["start", {}], "desc": ["play game"]}
+{"command": "play game", "result": ["start", {}], "desc": ["play game"]}
+{"command": "run game", "result": ["start", {}], "desc": ["play game"]}
