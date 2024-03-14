@@ -3,48 +3,68 @@ from .voc import *
 
 
 @dump
-def test_list_mode(train_generated: dict):
+def test_decrease_enemy_number(train_generated: dict):
     ###########################################
-    # list mode
+    # decrease number of enemy
     ###########################################
-    for s in [
-        "show mode list",
-        "what modes do you support?",
+    for verb in [
+        "reduce",
+        "decrease",
     ]:
-        xxx = {
-            s: {
-                "result": [
-                    x_list,
-                    x_mode,
-                    {},
-                ],
-                "desc": [
-                    "list mode",
-                ],
-            },
-        }
-        train_generated |= xxx
+        for noun in [
+            "enemy",
+            "monster",
+        ]:
+            for s in [
+                f"{verb} number of {noun}",
+                f"{verb} quantity of {noun}",
+                f"{verb} {noun}'s number",
+                f"{verb} {noun}'s quantity",
+            ]:
+                xxx = {
+                    s: {
+                        "result": [
+                            x_decrease,
+                            x_quantity,
+                            {x_args: x_enemy},
+                        ],
+                        "desc": [
+                            "decrease number of enemy",
+                        ],
+                    },
+                }
+                train_generated |= xxx
 
 
 @dump
-def test_list_mode2(train_generated: dict):
+def test_increase_enemy_number(train_generated: dict):
     ###########################################
-    # list mode
+    # increase number of enemy
     ###########################################
-    for s in [
-        "mode list",
-        "list modes",
+    for verb in [
+        "increase",
+        "add",
     ]:
-        xxx = {
-            s: {
-                "result": [
-                    x_list,
-                    x_mode,
-                    {},
-                ],
-                "desc": [
-                    "list mode",
-                ],
-            },
-        }
-        train_generated |= xxx
+        for noun in [
+            "enemy",
+            "monster",
+        ]:
+            for s in [
+                f"{verb} number of {noun}",
+                f"{verb} quantity of {noun}",
+                f"{verb} {noun}'s number",
+                f"{verb} {noun}'s quantity",
+            ]:
+                xxx = {
+                    s: {
+                        "result": [
+                            x_increase,
+                            x_quantity,
+                            {x_args: x_enemy},
+                        ],
+                        "desc": [
+                            "increase number of enemy",
+                        ],
+                    },
+                }
+                train_generated |= xxx
