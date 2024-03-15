@@ -6,6 +6,7 @@
 x_help = 'help'
 x_edit_mode = 'edit mode'
 x_reset_game = 'reset game'
+x_start_game = 'play game'
 
 # object and verb
 x_change_background = 'change background'

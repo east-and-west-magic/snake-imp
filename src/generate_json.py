@@ -86,7 +86,7 @@ def test_play_game(train_generated: dict):
         xxx = {
             s: {
                 "result": [
-                    x_start,
+                    x_start_game,
                     {},
                 ],
                 "desc": [
