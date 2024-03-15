@@ -1,0 +1,194 @@
+{
+    "increase number of enemy": {
+        "result": [
+            "increase",
+            "quantity",
+            {
+                "args": "enemy"
+            }
+        ],
+        "desc": [
+            "increase number of enemy"
+        ]
+    },
+    "increase quantity of enemy": {
+        "result": [
+            "increase",
+            "quantity",
+            {
+                "args": "enemy"
+            }
+        ],
+        "desc": [
+            "increase number of enemy"
+        ]
+    },
+    "increase enemy's number": {
+        "result": [
+            "increase",
+            "quantity",
+            {
+                "args": "enemy"
+            }
+        ],
+        "desc": [
+            "increase number of enemy"
+        ]
+    },
+    "increase enemy's quantity": {
+        "result": [
+            "increase",
+            "quantity",
+            {
+                "args": "enemy"
+            }
+        ],
+        "desc": [
+            "increase number of enemy"
+        ]
+    },
+    "increase number of monster": {
+        "result": [
+            "increase",
+            "quantity",
+            {
+                "args": "enemy"
+            }
+        ],
+        "desc": [
+            "increase number of enemy"
+        ]
+    },
+    "increase quantity of monster": {
+        "result": [
+            "increase",
+            "quantity",
+            {
+                "args": "enemy"
+            }
+        ],
+        "desc": [
+            "increase number of enemy"
+        ]
+    },
+    "increase monster's number": {
+        "result": [
+            "increase",
+            "quantity",
+            {
+                "args": "enemy"
+            }
+        ],
+        "desc": [
+            "increase number of enemy"
+        ]
+    },
+    "increase monster's quantity": {
+        "result": [
+            "increase",
+            "quantity",
+            {
+                "args": "enemy"
+            }
+        ],
+        "desc": [
+            "increase number of enemy"
+        ]
+    },
+    "add number of enemy": {
+        "result": [
+            "increase",
+            "quantity",
+            {
+                "args": "enemy"
+            }
+        ],
+        "desc": [
+            "increase number of enemy"
+        ]
+    },
+    "add quantity of enemy": {
+        "result": [
+            "increase",
+            "quantity",
+            {
+                "args": "enemy"
+            }
+        ],
+        "desc": [
+            "increase number of enemy"
+        ]
+    },
+    "add enemy's number": {
+        "result": [
+            "increase",
+            "quantity",
+            {
+                "args": "enemy"
+            }
+        ],
+        "desc": [
+            "increase number of enemy"
+        ]
+    },
+    "add enemy's quantity": {
+        "result": [
+            "increase",
+            "quantity",
+            {
+                "args": "enemy"
+            }
+        ],
+        "desc": [
+            "increase number of enemy"
+        ]
+    },
+    "add number of monster": {
+        "result": [
+            "increase",
+            "quantity",
+            {
+                "args": "enemy"
+            }
+        ],
+        "desc": [
+            "increase number of enemy"
+        ]
+    },
+    "add quantity of monster": {
+        "result": [
+            "increase",
+            "quantity",
+            {
+                "args": "enemy"
+            }
+        ],
+        "desc": [
+            "increase number of enemy"
+        ]
+    },
+    "add monster's number": {
+        "result": [
+            "increase",
+            "quantity",
+            {
+                "args": "enemy"
+            }
+        ],
+        "desc": [
+            "increase number of enemy"
+        ]
+    },
+    "add monster's quantity": {
+        "result": [
+            "increase",
+            "quantity",
+            {
+                "args": "enemy"
+            }
+        ],
+        "desc": [
+            "increase number of enemy"
+        ]
+    }
+}
