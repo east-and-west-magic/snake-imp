@@ -1,2 +1,0 @@
-{"command": "prop do not move", "result": ["disable", "patrol", {"args": "prop"}], "desc": ["disable patrol"]}
-{"command": "prop stationary", "result": ["disable", "patrol", {"args": "prop"}], "desc": ["disable patrol"]}
