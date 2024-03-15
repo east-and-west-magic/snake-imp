@@ -27,8 +27,10 @@ x_prop_size = f'{x_prop} size'
 x_map_size = 'map size'
 x_mode = 'mode' # game mode
 x_music = 'music'
-# x_prop_speed = f'{x_prop} speed'
+x_prop_speed = f'{x_prop} speed'
 x_snake_speed = f'{x_snake} speed'
+x_enemy_speed = f'{x_enemy} speed'
+x_obstacle_speed = f'{x_obstacle} speed'
 
 x_magnet = 'magnet'
 x_bomb = 'bomb'

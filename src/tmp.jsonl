@@ -1,38 +1,60 @@
-{"command": "start", "result": ["start", {}], "desc": ["play game"]}
-{"command": "play", "result": ["start", {}], "desc": ["play game"]}
-{"command": "run", "result": ["start", {}], "desc": ["play game"]}
-{"command": "start game", "result": ["start", {}], "desc": ["play game"]}
-{"command": "play game", "result": ["start", {}], "desc": ["play game"]}
-{"command": "run game", "result": ["start", {}], "desc": ["play game"]}
-{"command": "reduce number of enemy", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
-{"command": "reduce quantity of enemy", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
-{"command": "reduce enemy's number", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
-{"command": "reduce enemy's quantity", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
-{"command": "reduce number of monster", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
-{"command": "reduce quantity of monster", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
-{"command": "reduce monster's number", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
-{"command": "reduce monster's quantity", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
-{"command": "decrease number of enemy", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
-{"command": "decrease quantity of enemy", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
-{"command": "decrease enemy's number", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
-{"command": "decrease enemy's quantity", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
-{"command": "decrease number of monster", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
-{"command": "decrease quantity of monster", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
-{"command": "decrease monster's number", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
-{"command": "decrease monster's quantity", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
-{"command": "increase number of enemy", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
-{"command": "increase quantity of enemy", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
-{"command": "increase enemy's number", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
-{"command": "increase enemy's quantity", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
-{"command": "increase number of monster", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
-{"command": "increase quantity of monster", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
-{"command": "increase monster's number", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
-{"command": "increase monster's quantity", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
-{"command": "add number of enemy", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
-{"command": "add quantity of enemy", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
-{"command": "add enemy's number", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
-{"command": "add enemy's quantity", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
-{"command": "add number of monster", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
-{"command": "add quantity of monster", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
-{"command": "add monster's number", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
-{"command": "add monster's quantity", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
+{"command": "set enemy speed to 1", "result": ["enemy speed", "set", {"args": 1}], "desc": ["enemy speed"]}
+{"command": "set monster speed to 1", "result": ["enemy speed", "set", {"args": 1}], "desc": ["enemy speed"]}
+{"command": "set enemy speed to 2", "result": ["enemy speed", "set", {"args": 2}], "desc": ["enemy speed"]}
+{"command": "set monster speed to 2", "result": ["enemy speed", "set", {"args": 2}], "desc": ["enemy speed"]}
+{"command": "set enemy speed to 3", "result": ["enemy speed", "set", {"args": 3}], "desc": ["enemy speed"]}
+{"command": "set monster speed to 3", "result": ["enemy speed", "set", {"args": 3}], "desc": ["enemy speed"]}
+{"command": "set enemy speed to 4", "result": ["enemy speed", "set", {"args": 4}], "desc": ["enemy speed"]}
+{"command": "set monster speed to 4", "result": ["enemy speed", "set", {"args": 4}], "desc": ["enemy speed"]}
+{"command": "set enemy speed to 5", "result": ["enemy speed", "set", {"args": 5}], "desc": ["enemy speed"]}
+{"command": "set monster speed to 5", "result": ["enemy speed", "set", {"args": 5}], "desc": ["enemy speed"]}
+{"command": "set enemy speed to 6", "result": ["enemy speed", "set", {"args": 6}], "desc": ["enemy speed"]}
+{"command": "set monster speed to 6", "result": ["enemy speed", "set", {"args": 6}], "desc": ["enemy speed"]}
+{"command": "set enemy speed to 7", "result": ["enemy speed", "set", {"args": 7}], "desc": ["enemy speed"]}
+{"command": "set monster speed to 7", "result": ["enemy speed", "set", {"args": 7}], "desc": ["enemy speed"]}
+{"command": "set enemy speed to 8", "result": ["enemy speed", "set", {"args": 8}], "desc": ["enemy speed"]}
+{"command": "set monster speed to 8", "result": ["enemy speed", "set", {"args": 8}], "desc": ["enemy speed"]}
+{"command": "set enemy speed to 9", "result": ["enemy speed", "set", {"args": 9}], "desc": ["enemy speed"]}
+{"command": "set monster speed to 9", "result": ["enemy speed", "set", {"args": 9}], "desc": ["enemy speed"]}
+{"command": "set enemy speed to 10", "result": ["enemy speed", "set", {"args": 10}], "desc": ["enemy speed"]}
+{"command": "set monster speed to 10", "result": ["enemy speed", "set", {"args": 10}], "desc": ["enemy speed"]}
+{"command": "change obstacle speed to 1", "result": ["obstacle speed", "set", {"args": 1}], "desc": ["obstacle speed"]}
+{"command": "change obstacle speed to 2", "result": ["obstacle speed", "set", {"args": 2}], "desc": ["obstacle speed"]}
+{"command": "change obstacle speed to 3", "result": ["obstacle speed", "set", {"args": 3}], "desc": ["obstacle speed"]}
+{"command": "change obstacle speed to 4", "result": ["obstacle speed", "set", {"args": 4}], "desc": ["obstacle speed"]}
+{"command": "change obstacle speed to 5", "result": ["obstacle speed", "set", {"args": 5}], "desc": ["obstacle speed"]}
+{"command": "change obstacle speed to 6", "result": ["obstacle speed", "set", {"args": 6}], "desc": ["obstacle speed"]}
+{"command": "change obstacle speed to 7", "result": ["obstacle speed", "set", {"args": 7}], "desc": ["obstacle speed"]}
+{"command": "change obstacle speed to 8", "result": ["obstacle speed", "set", {"args": 8}], "desc": ["obstacle speed"]}
+{"command": "change obstacle speed to 9", "result": ["obstacle speed", "set", {"args": 9}], "desc": ["obstacle speed"]}
+{"command": "change obstacle speed to 10", "result": ["obstacle speed", "set", {"args": 10}], "desc": ["obstacle speed"]}
+{"command": "change player speed to 1", "result": ["snake speed", "set", {"args": 1}], "desc": ["snake speed"]}
+{"command": "change player speed to 2", "result": ["snake speed", "set", {"args": 2}], "desc": ["snake speed"]}
+{"command": "change player speed to 3", "result": ["snake speed", "set", {"args": 3}], "desc": ["snake speed"]}
+{"command": "change player speed to 4", "result": ["snake speed", "set", {"args": 4}], "desc": ["snake speed"]}
+{"command": "change player speed to 5", "result": ["snake speed", "set", {"args": 5}], "desc": ["snake speed"]}
+{"command": "change player speed to 6", "result": ["snake speed", "set", {"args": 6}], "desc": ["snake speed"]}
+{"command": "change player speed to 7", "result": ["snake speed", "set", {"args": 7}], "desc": ["snake speed"]}
+{"command": "change player speed to 8", "result": ["snake speed", "set", {"args": 8}], "desc": ["snake speed"]}
+{"command": "change player speed to 9", "result": ["snake speed", "set", {"args": 9}], "desc": ["snake speed"]}
+{"command": "change player speed to 10", "result": ["snake speed", "set", {"args": 10}], "desc": ["snake speed"]}
+{"command": "change prop speed to 1", "result": ["prop speed", "set", {"args": 1}], "desc": ["prop speed"]}
+{"command": "change weapon speed to 1", "result": ["prop speed", "set", {"args": 1}], "desc": ["prop speed"]}
+{"command": "change prop speed to 2", "result": ["prop speed", "set", {"args": 2}], "desc": ["prop speed"]}
+{"command": "change weapon speed to 2", "result": ["prop speed", "set", {"args": 2}], "desc": ["prop speed"]}
+{"command": "change prop speed to 3", "result": ["prop speed", "set", {"args": 3}], "desc": ["prop speed"]}
+{"command": "change weapon speed to 3", "result": ["prop speed", "set", {"args": 3}], "desc": ["prop speed"]}
+{"command": "change prop speed to 4", "result": ["prop speed", "set", {"args": 4}], "desc": ["prop speed"]}
+{"command": "change weapon speed to 4", "result": ["prop speed", "set", {"args": 4}], "desc": ["prop speed"]}
+{"command": "change prop speed to 5", "result": ["prop speed", "set", {"args": 5}], "desc": ["prop speed"]}
+{"command": "change weapon speed to 5", "result": ["prop speed", "set", {"args": 5}], "desc": ["prop speed"]}
+{"command": "change prop speed to 6", "result": ["prop speed", "set", {"args": 6}], "desc": ["prop speed"]}
+{"command": "change weapon speed to 6", "result": ["prop speed", "set", {"args": 6}], "desc": ["prop speed"]}
+{"command": "change prop speed to 7", "result": ["prop speed", "set", {"args": 7}], "desc": ["prop speed"]}
+{"command": "change weapon speed to 7", "result": ["prop speed", "set", {"args": 7}], "desc": ["prop speed"]}
+{"command": "change prop speed to 8", "result": ["prop speed", "set", {"args": 8}], "desc": ["prop speed"]}
+{"command": "change weapon speed to 8", "result": ["prop speed", "set", {"args": 8}], "desc": ["prop speed"]}
+{"command": "change prop speed to 9", "result": ["prop speed", "set", {"args": 9}], "desc": ["prop speed"]}
+{"command": "change weapon speed to 9", "result": ["prop speed", "set", {"args": 9}], "desc": ["prop speed"]}
+{"command": "change prop speed to 10", "result": ["prop speed", "set", {"args": 10}], "desc": ["prop speed"]}
+{"command": "change weapon speed to 10", "result": ["prop speed", "set", {"args": 10}], "desc": ["prop speed"]}
