@@ -1,4 +1,32 @@
-{"command": "show mode list", "result": ["list", "mode", {}], "desc": ["list mode"]}
-{"command": "what modes do you support?", "result": ["list", "mode", {}], "desc": ["list mode"]}
-{"command": "mode list", "result": ["list", "mode", {}], "desc": ["list mode"]}
-{"command": "list modes", "result": ["list", "mode", {}], "desc": ["list mode"]}
+{"command": "reduce number of enemy", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
+{"command": "reduce quantity of enemy", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
+{"command": "reduce enemy's number", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
+{"command": "reduce enemy's quantity", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
+{"command": "reduce number of monster", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
+{"command": "reduce quantity of monster", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
+{"command": "reduce monster's number", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
+{"command": "reduce monster's quantity", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
+{"command": "decrease number of enemy", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
+{"command": "decrease quantity of enemy", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
+{"command": "decrease enemy's number", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
+{"command": "decrease enemy's quantity", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
+{"command": "decrease number of monster", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
+{"command": "decrease quantity of monster", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
+{"command": "decrease monster's number", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
+{"command": "decrease monster's quantity", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
+{"command": "increase number of enemy", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
+{"command": "increase quantity of enemy", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
+{"command": "increase enemy's number", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
+{"command": "increase enemy's quantity", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
+{"command": "increase number of monster", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
+{"command": "increase quantity of monster", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
+{"command": "increase monster's number", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
+{"command": "increase monster's quantity", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
+{"command": "add number of enemy", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
+{"command": "add quantity of enemy", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
+{"command": "add enemy's number", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
+{"command": "add enemy's quantity", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
+{"command": "add number of monster", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
+{"command": "add quantity of monster", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
+{"command": "add monster's number", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
+{"command": "add monster's quantity", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
