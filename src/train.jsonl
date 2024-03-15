@@ -1,9 +1,3 @@
-{"command": "start", "result": ["start", {}], "desc": ["play game"]}
-{"command": "play", "result": ["start", {}], "desc": ["play game"]}
-{"command": "run", "result": ["start", {}], "desc": ["play game"]}
-{"command": "start game", "result": ["start", {}], "desc": ["play game"]}
-{"command": "play game", "result": ["start", {}], "desc": ["play game"]}
-{"command": "run game", "result": ["start", {}], "desc": ["play game"]}
 {"command": "reduce number of enemy", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
 {"command": "reduce quantity of enemy", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
 {"command": "reduce enemy's number", "result": ["decrease", "quantity", {"args": "enemy"}], "desc": ["decrease number of enemy"]}
@@ -36,3 +30,9 @@
 {"command": "add quantity of monster", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
 {"command": "add monster's number", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
 {"command": "add monster's quantity", "result": ["increase", "quantity", {"args": "enemy"}], "desc": ["increase number of enemy"]}
+{"command": "start", "result": ["play game", {}], "desc": ["play game"]}
+{"command": "play", "result": ["play game", {}], "desc": ["play game"]}
+{"command": "run", "result": ["play game", {}], "desc": ["play game"]}
+{"command": "start game", "result": ["play game", {}], "desc": ["play game"]}
+{"command": "play game", "result": ["play game", {}], "desc": ["play game"]}
+{"command": "run game", "result": ["play game", {}], "desc": ["play game"]}

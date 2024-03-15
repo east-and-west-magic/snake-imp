@@ -1,0 +1,56 @@
+{
+    "start": {
+        "result": [
+            "play game",
+            {}
+        ],
+        "desc": [
+            "play game"
+        ]
+    },
+    "play": {
+        "result": [
+            "play game",
+            {}
+        ],
+        "desc": [
+            "play game"
+        ]
+    },
+    "run": {
+        "result": [
+            "play game",
+            {}
+        ],
+        "desc": [
+            "play game"
+        ]
+    },
+    "start game": {
+        "result": [
+            "play game",
+            {}
+        ],
+        "desc": [
+            "play game"
+        ]
+    },
+    "play game": {
+        "result": [
+            "play game",
+            {}
+        ],
+        "desc": [
+            "play game"
+        ]
+    },
+    "run game": {
+        "result": [
+            "play game",
+            {}
+        ],
+        "desc": [
+            "play game"
+        ]
+    }
+}
