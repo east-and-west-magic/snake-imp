@@ -1,0 +1,4 @@
+{"command": "make weapons stationary", "result": ["set", "weapon", "speed", {"args": 0}], "desc": ["make weapons stationary"]}
+{"command": "make the weapons stationary", "result": ["set", "weapon", "speed", {"args": 0}], "desc": ["make weapons stationary"]}
+{"command": "stop weapons from moving", "result": ["set", "weapon", "speed", {"args": 0}], "desc": ["make weapons stationary"]}
+{"command": "let weapons stand still", "result": ["set", "weapon", "speed", {"args": 0}], "desc": ["make weapons stationary"]}
