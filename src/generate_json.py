@@ -2,25 +2,28 @@ from .util import dump
 from .voc import *
 import pytest
 
+
 @dump
-def test_list_mode(train_generated: dict):
+def test_change_skin(train_generated: dict):
     ###########################################
-    # list mode
+    # change skin
     ###########################################
-    for s in [
-        "show mode list",
-        "what modes do you support?",
+    for weapon in [
+        "gun", "sword", "club", "bomb",
     ]:
-        xxx = {
-            s: {
-                "result": [
-                    x_list,
-                    x_mode,
-                    {},
-                ],
-                "desc": [
-                    "list mode",
-                ],
-            },
-        }
-        train_generated |= xxx
+        for s in [
+            f"Change image for {weapon}",
+            f"change picture for {weapon}",
+        ]:
+            xxx = {
+                s: {
+                    "result": [
+                        x_change_skin,
+                        {x_args: x_weapon},
+                    ],
+                    "desc": [
+                        "change skin",
+                    ],
+                },
+            }
+            train_generated |= xxx

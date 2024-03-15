@@ -1,0 +1,8 @@
+{"command": "Change image for gun", "result": ["change skin", {"args": "weapon"}], "desc": ["change skin"]}
+{"command": "change picture for gun", "result": ["change skin", {"args": "weapon"}], "desc": ["change skin"]}
+{"command": "Change image for sword", "result": ["change skin", {"args": "weapon"}], "desc": ["change skin"]}
+{"command": "change picture for sword", "result": ["change skin", {"args": "weapon"}], "desc": ["change skin"]}
+{"command": "Change image for club", "result": ["change skin", {"args": "weapon"}], "desc": ["change skin"]}
+{"command": "change picture for club", "result": ["change skin", {"args": "weapon"}], "desc": ["change skin"]}
+{"command": "Change image for bomb", "result": ["change skin", {"args": "weapon"}], "desc": ["change skin"]}
+{"command": "change picture for bomb", "result": ["change skin", {"args": "weapon"}], "desc": ["change skin"]}
