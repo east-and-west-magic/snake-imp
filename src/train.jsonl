@@ -1,2 +1,0 @@
-{"command": "make enemy indestructible", "result": ["disable", "enemy", {"args": "destroyable"}], "desc": ["enable/disable obstacles/enemies destroyable"]}
-{"command": "make enemy unbreakable", "result": ["disable", "enemy", {"args": "destroyable"}], "desc": ["enable/disable obstacles/enemies destroyable"]}
