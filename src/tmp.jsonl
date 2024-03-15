@@ -1,4 +1,4 @@
-{"command": "make weapons stationary", "result": ["set", "weapon", "speed", {"args": 0}], "desc": ["make weapons stationary"]}
-{"command": "make the weapons stationary", "result": ["set", "weapon", "speed", {"args": 0}], "desc": ["make weapons stationary"]}
-{"command": "stop weapons from moving", "result": ["set", "weapon", "speed", {"args": 0}], "desc": ["make weapons stationary"]}
-{"command": "let weapons stand still", "result": ["set", "weapon", "speed", {"args": 0}], "desc": ["make weapons stationary"]}
+{"command": "make weapons stationary", "result": ["disable", "patrol", {"args": "weapon"}], "desc": ["disable weapons patrol"]}
+{"command": "make the weapons stationary", "result": ["disable", "patrol", {"args": "weapon"}], "desc": ["disable weapons patrol"]}
+{"command": "stop weapons from moving", "result": ["disable", "patrol", {"args": "weapon"}], "desc": ["disable weapons patrol"]}
+{"command": "let weapons stand still", "result": ["disable", "patrol", {"args": "weapon"}], "desc": ["disable weapons patrol"]}

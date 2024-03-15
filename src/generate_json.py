@@ -16,13 +16,12 @@ def test_make_weapon_stationary(train_generated: dict):
         xxx = {
             s: {
                 "result": [
-                    x_set,
-                    x_weapon,
-                    x_speed,
-                    {x_args: 0},
+                    x_disable,
+                    x_patrol,
+                    {x_args: x_weapon},
                 ],
                 "desc": [
-                    "make weapons stationary",
+                    "disable weapons patrol",
                 ],
             },
         }
