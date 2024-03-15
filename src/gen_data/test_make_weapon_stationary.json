@@ -1,0 +1,54 @@
+{
+    "make weapons stationary": {
+        "result": [
+            "set",
+            "weapon",
+            "speed",
+            {
+                "args": 0
+            }
+        ],
+        "desc": [
+            "make weapons stationary"
+        ]
+    },
+    "make the weapons stationary": {
+        "result": [
+            "set",
+            "weapon",
+            "speed",
+            {
+                "args": 0
+            }
+        ],
+        "desc": [
+            "make weapons stationary"
+        ]
+    },
+    "stop weapons from moving": {
+        "result": [
+            "set",
+            "weapon",
+            "speed",
+            {
+                "args": 0
+            }
+        ],
+        "desc": [
+            "make weapons stationary"
+        ]
+    },
+    "let weapons stand still": {
+        "result": [
+            "set",
+            "weapon",
+            "speed",
+            {
+                "args": 0
+            }
+        ],
+        "desc": [
+            "make weapons stationary"
+        ]
+    }
+}
