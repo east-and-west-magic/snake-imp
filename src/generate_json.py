@@ -3,56 +3,101 @@ from .voc import *
 import pytest
 
 
-@pytest.mark.skip
 @dump
-def test_list_mode(train_generated: dict):
+def test_decrease_enemy_number(train_generated: dict):
     ###########################################
-    # list mode
+    # decrease number of enemy
+    ###########################################
+    for verb in [
+        "reduce",
+        "decrease",
+    ]:
+        for noun in [
+            "enemy",
+            "monster",
+        ]:
+            for s in [
+                f"{verb} number of {noun}",
+                f"{verb} quantity of {noun}",
+                f"{verb} {noun}'s number",
+                f"{verb} {noun}'s quantity",
+            ]:
+                xxx = {
+                    s: {
+                        "result": [
+                            x_decrease,
+                            x_quantity,
+                            {x_args: x_enemy},
+                        ],
+                        "desc": [
+                            "decrease number of enemy",
+                        ],
+                    },
+                }
+                train_generated |= xxx
+
+
+@dump
+def test_increase_enemy_number(train_generated: dict):
+    ###########################################
+    # increase number of enemy
+    ###########################################
+    for verb in [
+        "increase",
+        "add",
+    ]:
+        for noun in [
+            "enemy",
+            "monster",
+        ]:
+            for s in [
+                f"{verb} number of {noun}",
+                f"{verb} quantity of {noun}",
+                f"{verb} {noun}'s number",
+                f"{verb} {noun}'s quantity",
+            ]:
+                xxx = {
+                    s: {
+                        "result": [
+                            x_increase,
+                            x_quantity,
+                            {x_args: x_enemy},
+                        ],
+                        "desc": [
+                            "increase number of enemy",
+                        ],
+                    },
+                }
+                train_generated |= xxx
+
+                
+@dump
+def test_play_game(train_generated: dict):
+    ###########################################
+    # play game
     ###########################################
     for s in [
-        "show mode list",
-        "what modes do you support?",
+        "start",
+        "play",
+        "run",
+        "start game",
+        "play game",
+        "run game"
     ]:
         xxx = {
             s: {
                 "result": [
-                    x_list,
-                    x_mode,
+                    x_start,
                     {},
                 ],
                 "desc": [
-                    "list mode",
+                    "play game",
                 ],
             },
         }
         train_generated |= xxx
 
-
-@pytest.mark.skip
-@dump
-def test_list_mode2(train_generated: dict):
-    ###########################################
-    # list mode
-    ###########################################
-    for s in [
-        "mode list",
-        "list modes",
-    ]:
-        xxx = {
-            s: {
-                "result": [
-                    x_list,
-                    x_mode,
-                    {},
-                ],
-                "desc": [
-                    "list mode",
-                ],
-            },
-        }
-        train_generated |= xxx
-
-
+        
 @dump
 def test_enemy_speed(train_generated: dict):
     ###########################################
@@ -157,3 +202,4 @@ def test_prop_speed(train_generated: dict):
                 },
             }
             train_generated |= xxx
+
