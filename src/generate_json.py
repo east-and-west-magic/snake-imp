@@ -26,3 +26,29 @@ def test_make_weapon_stationary(train_generated: dict):
             },
         }
         train_generated |= xxx
+
+
+@dump
+def test_disable_enemy_attack_around(train_generated: dict):
+    ###########################################
+    # disable enemy attack around
+    ###########################################
+    for s in [
+        "stop the enemies from following the player",
+        "stop enemy from following player",
+        "disable enemy following player",
+        "enemy stop following player",
+    ]:
+        xxx = {
+            s: {
+                "result": [
+                    x_enemy_attack_around,
+                    x_delete,
+                    {},
+                ],
+                "desc": [
+                    "enemies/obstacles attack snake/player",
+                ],
+            },
+        }
+        train_generated |= xxx
