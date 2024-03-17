@@ -1,4 +1,4 @@
-{"command": "make weapons stationary", "result": ["disable", "patrol", {"args": "weapon"}], "desc": ["disable weapons patrol"]}
-{"command": "make the weapons stationary", "result": ["disable", "patrol", {"args": "weapon"}], "desc": ["disable weapons patrol"]}
-{"command": "stop weapons from moving", "result": ["disable", "patrol", {"args": "weapon"}], "desc": ["disable weapons patrol"]}
-{"command": "let weapons stand still", "result": ["disable", "patrol", {"args": "weapon"}], "desc": ["disable weapons patrol"]}
+{"command": "stop the enemies from following the player", "result": ["enemy attack around", "delete", {}], "desc": ["enemies/obstacles attack snake/player"]}
+{"command": "stop enemy from following player", "result": ["enemy attack around", "delete", {}], "desc": ["enemies/obstacles attack snake/player"]}
+{"command": "disable enemy following player", "result": ["enemy attack around", "delete", {}], "desc": ["enemies/obstacles attack snake/player"]}
+{"command": "enemy stop following player", "result": ["enemy attack around", "delete", {}], "desc": ["enemies/obstacles attack snake/player"]}
